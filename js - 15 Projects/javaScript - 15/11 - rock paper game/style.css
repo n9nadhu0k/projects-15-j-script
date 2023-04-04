@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: chartreuse;
+}
+.container {
+    width: 45%;
+    min-width: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+}
+.scores {
+    margin-bottom: 50px;
+    text-align: right;
+}
+.weapons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.weapons button {
+    background-color: #ffd51b;
+    color: black;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+.details {
+    margin-top: 30px;
+    text-align: center;
+}
+.scores,.details {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}

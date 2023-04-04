@@ -1,0 +1,104 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    width: 100%;
+    height: 400vh;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    text-align: center;
+    margin-top: 10vh;
+}
+.line {
+    width: 7%;
+    height: 4px;
+    background-color: darkblue;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+.btn {
+    margin-top: 30px;
+    padding: 7px 15px;
+    margin-left: 15px;
+    font-weight: 550;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(70, 15, 26);
+}
+.btn:hover {
+    background-color: rgb(206, 216, 233);
+    transform: scale(1.2);
+    color: rgb(220, 26, 61);
+}
+
+.food-items {
+    width: 57vw;
+    height: 430vh;
+    /* border: 1px solid goldenrod; */
+    /* background-color: rgb(222, 216, 227); */
+    margin: 30px auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    flex-basis: 40%;
+    border: 5px solid grey;height: 200px;
+    border-radius: 5px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.right {
+    flex-basis: 57%;
+    height: 200px;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.item-name {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.item-name h3 {
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.about-dishes {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+.price {
+    color: rgb(131, 52, 23);
+}
+/* .breakfast {
+    display: none;
+} */
+
+
+/* @media (max-width: 500px){
+    .food-items {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        font-size: 20px;
+    }
+} */
